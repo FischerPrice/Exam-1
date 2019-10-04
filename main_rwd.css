@@ -1,0 +1,154 @@
+html {	
+}
+body  {
+	font-family: Futura;
+	width: 964px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+    border: 2px solid;
+    border-color:#B9975B;
+    color:#002B5C;
+}
+
+h2{font-family:Futura Hv;}
+a:hover{color:#B9975B;}
+a{color:#002B5C;}
+a:visited{color:#D31145;}
+
+
+#Schedule h3, h2
+{
+    text-align:center;
+}
+#Schedule
+{
+    clear:right;
+    text-align:left;
+    float:right;
+}
+
+#Schedule img
+{
+    float:right;;
+}
+
+/* Table */
+
+table
+{
+    border:none;
+}
+h3 {padding:0;}
+aside table
+{
+    
+    margin-left:50px;
+    width:75%;
+    height:50%;
+    border:2px solid #002B5C;
+    padding:0px;
+}
+
+aside table tr, td
+{
+    border:2px solid #002B5C;
+    padding:10px;
+    text-align:center;
+}
+aside table th
+{
+    border:2px solid #002B5C;
+    padding:0;
+}
+
+#Schedule img
+{
+    float:right;;
+}
+
+/* Header */
+header
+{ 
+    font-size: 125%;
+    color:#002B5C;
+} 
+header img { 
+	float: left; 
+	padding-right: 15px;
+    padding-left: 20px;
+}
+
+
+/* Main */
+#SideA
+{
+    width:15%;
+    padding-left:20px;
+    float:left;
+}
+
+aside
+{
+    width:35%;
+    float:left;
+}
+
+main
+{
+    width:65%;
+    float:right;
+    padding-left:0;
+}
+main img
+{
+    float:left;
+}
+
+#HomePage
+{   
+    float:left;
+    width:54%;
+    margin-top:-20px;
+}
+
+#HomePage img {float:left;}
+
+#SideB p{padding:0; margin:5px}
+#SideB
+{
+    float:right;
+    width:28%;
+    margin-top:-20px;
+    text-align:center;
+    padding:0;
+}
+/* Sidebar menu */
+
+li{list-style-type:none;}
+.vertical_menu a:hover{color:#B9975B; list-style-image: url('baseball.png');}
+.vertical_menu a:visited{color:#D31145;}
+
+.vertical_menu a
+{
+    width:95px;
+    color:#002B5C;
+    font-family:Futura;
+    display:block;
+    padding:5px; 5px;
+    text-decoration:none;
+}
+
+
+
+/* Footer */
+footer {
+    clear:both;
+	border-top: 2px solid;
+	padding: 0px;
+    border-color:#B9975B;
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
